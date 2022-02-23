@@ -1,0 +1,19 @@
+.headerimage {
+	width: 20%; 
+	padding-bottom: 2vh;
+	margin-left: auto; 
+	margin-right: auto; 
+	display: block;
+}
+
+.footerimage { 
+	width: 20%;
+	float: right;
+	padding-bottom: 2vh;
+}
+
+@media screen and (max-width: 900px) {
+	.footerimage {
+	  display: none;
+	}
+  }
