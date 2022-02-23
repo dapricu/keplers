@@ -24,8 +24,8 @@ $cards
     var t = pos[1];
     var h = $card.height();
     var w = $card.width();
-    var px = Math.abs(Math.floor(100 / w * l)-100);
-    var py = Math.abs(Math.floor(100 / h * t)-100);
+    var px = Math.abs(Math.floor(100 / (w) * l)-100);
+    var py = Math.abs(Math.floor(100 / (h) * t)-100);
     var pa = (50-px)+(50-py);
     // math for gradient / background positions
     var lp = (50+(px - 50)/1.5);

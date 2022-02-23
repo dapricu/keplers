@@ -1,31 +1,29 @@
 :root {
   --color1: rgb(223, 221, 128);
   --color2: #c4c4c400;
-  --alch1a: rgb(223, 221, 128);
-  --alch1b: #c4c4c400;
+  --kepler1a: rgb(223, 221, 128);
+  --kepler1b: #c4c4c400;
   --back: url(https://cdn2.bulbagarden.net/upload/1/17/Cardback.jpg);
-  --alch1front: url(cards/KeplerGenerator_01.png);
-  --alch2front: url(cards/KeplerGenerator_02.png);
-  --alch3front: url(cards/KeplerGenerator_03.png);
-  --alch4front: url(cards/KeplerGenerator_04.png);
-  --alch5front: url(cards/KeplerGenerator_05.png);
-  --alch6front: url(cards/KeplerGenerator_06.png);
-  --alch7front: url(cards/KeplerGenerator_07.png);
-  --alch8front: url(cards/KeplerGenerator_08.png);
-  /* --alch9front: url(cards/9.png);
-  --alch10front: url(cards/10.png);
-  --alch11front: url(cards/11.png);
-  --alch12front: url(cards/12.png);
-  --alch19front: url(cards/19.png);
-  --alch22front: url(cards/22.png);
-  --alch32front: url(cards/32.png);
-  --alch48front: url(cards/48.png);
-  --alch51front: url(cards/51.png);
-  --alch54front: url(cards/54.png);
-  --alch57front: url(cards/57.png);
-  --alch58front: url(cards/58.png); */
-
-
+  --kepler1front: url(cards/KeplerGenerator_01.png);
+  --kepler2front: url(cards/KeplerGenerator_02.png);
+  --kepler3front: url(cards/KeplerGenerator_03.png);
+  --kepler4front: url(cards/KeplerGenerator_04.png);
+  --kepler5front: url(cards/KeplerGenerator_05.png);
+  --kepler6front: url(cards/KeplerGenerator_06.png);
+  --kepler7front: url(cards/KeplerGenerator_07.png);
+  --kepler8front: url(cards/KeplerGenerator_08.png);
+  --kepler9front: url(cards/KeplerGenerator_09.png);
+  --kepler10front: url(cards/KeplerGenerator_10.png);
+  --kepler11front: url(cards/KeplerGenerator_11.png);
+  --kepler12front: url(cards/KeplerGenerator_12.png);
+  --kepler13front: url(cards/KeplerGenerator_13.png);
+  --kepler14front: url(cards/KeplerGenerator_14.png);
+  --kepler15front: url(cards/KeplerGenerator_15.png);
+  --kepler16front: url(cards/KeplerGenerator_16.png);
+  --kepler17front: url(cards/KeplerGenerator_17.png);
+  --kepler18front: url(cards/KeplerGenerator_18.png);
+  --kepler19front: url(cards/KeplerGenerator_19.png);
+  --kepler20front: url(cards/KeplerGenerator_20.png);
 }
 
 .card {
@@ -64,117 +62,160 @@
     0 55px 35px -20px rgba(0, 0, 0, 0.5);
 }
 
-.card.alch1 {
-  --color1: var(--alch1a);
-  --color2: var(--alch1b);
-  --front: var(--alch1front);
+.card.kepler1 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler1front);
 }
 
-.card.alch2 {
-  --color1: var(--alch1a);
-  --color2: var(--alch1b);
-  --front: var(--alch2front);
+.card.kepler2 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler2front);
 }
 
-.card.alch3 {
-  --color1: var(--alch1a);
-  --color2: var(--alch1b);
-  --front: var(--alch3front);
+.card.kepler3 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler3front);
 }
 
-.card.alch4 {
-  --color1: var(--alch1a);
-  --color2: var(--alch1b);
-  --front: var(--alch4front);
+.card.kepler4 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler4front);
 }
 
-.card.alch5 {
-  --color1: var(--alch1a);
-  --color2: var(--alch1b);
-  --front: var(--alch5front);
+.card.kepler5 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler5front);
 }
 
-.card.alch6 {
-  --color1: var(--alch1a);
-  --color2: var(--alch1b);
-  --front: var(--alch6front);
+.card.kepler6 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler6front);
 }
 
-.card.alch7 {
-  --color1: var(--alch1a);
-  --color2: var(--alch1b);
-  --front: var(--alch7front);
+.card.kepler7 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler7front);
 }
 
-.card.alch8 {
-  --color1: var(--alch1a);
-  --color2: var(--alch1b);
-  --front: var(--alch8front);
+.card.kepler8 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler8front);
 }
 
-.card.alch9 {
-  --color1: var(--alch1a);
-  --color2: var(--alch1b);
-  --front: var(--alch9front);
+.card.kepler9 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler9front);
 }
 
-.card.alch10 {
-  --color1: var(--alch1a);
-  --color2: var(--alch1b);
-  --front: var(--alch10front);
+.card.kepler10 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler10front);
 }
 
-.card.alch11 {
-  --color1: var(--alch1a);
-  --color2: var(--alch1b);
-  --front: var(--alch11front);
+.card.kepler11 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler11front);
 }
 
-.card.alch12 {
-  --color1: var(--alch1a);
-  --color2: var(--alch1b);
-  --front: var(--alch12front);
+.card.kepler12 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler12front);
 }
 
-.card.alch19 {
-  --color1: var(--alch1a);
-  --color2: var(--alch1b);
-  --front: var(--alch19front);
+.card.kepler13 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler13front);
 }
-.card.alch22 {
-  --color1: var(--alch1a);
-  --color2: var(--alch1b);
-  --front: var(--alch22front);
+
+.card.kepler14 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler14front);
 }
-.card.alch32 {
-  --color1: var(--alch1a);
-  --color2: var(--alch1b);
-  --front: var(--alch32front);
+
+.card.kepler15 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler15front);
 }
-.card.alch48 {
-  --color1: var(--alch1a);
-  --color2: var(--alch1b);
-  --front: var(--alch48front);
+
+.card.kepler16 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler16front);
 }
-.card.alch51 {
-  --color1: var(--alch1a);
-  --color2: var(--alch1b);
-  --front: var(--alch51front);
+
+.card.kepler17 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler17front);
 }
-.card.alch54 {
-  --color1: var(--alch1a);
-  --color2: var(--alch1b);
-  --front: var(--alch54front);
+
+.card.kepler18 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler18front);
 }
-.card.alch57 {
-  --color1: var(--alch1a);
-  --color2: var(--alch1b);
-  --front: var(--alch57front);
+
+.card.kepler19 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler19front);
 }
-.card.alch58 {
-  --color1: var(--alch1a);
-  --color2: var(--alch1b);
-  --front: var(--alch58front);
+
+.card.kepler20 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler20front);
+}
+
+.card.kepler22 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler22front);
+}
+.card.kepler32 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler32front);
+}
+.card.kepler48 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler48front);
+}
+.card.kepler51 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler51front);
+}
+.card.kepler54 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler54front);
+}
+.card.kepler57 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler57front);
+}
+.card.kepler58 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler58front);
 }
 
 
