@@ -83,7 +83,7 @@ footer nav ul li {
   transform-origin: center bottom 0px;
   transition: all 0.5s ease 0s;
   box-shadow: 0px 22px 54px rgba(0, 0, 0, 0.5);
-  background: var(--clr3);
+  /* background: var(--clr3); */
 }
 
 body.tight .wrapper {
@@ -139,13 +139,13 @@ body.tight .wrapper {
 }
 
 .footertext {
-  padding-left: 2vw; 
-  text-align: left; 
-  width: 50%; 
-  font-size: smaller !important; 
-  font: inherit; 
-  float: left; 
-  font-family: JetBrains Mono; 
+  padding-left: 2vw;
+  text-align: left;
+  width: 50%;
+  font-size: smaller !important;
+  font: inherit;
+  float: left;
+  font-family: JetBrains Mono;
   overflow-wrap: anywhere;
 }
 

@@ -4,21 +4,19 @@
 
   body {
 	font-family: "Barlow Condensed";
-	background: #f9f8f8;
 	width: 100%;
+	color: white;
   }  
     
   header.header {
 	top: 50%;
 	left: 0;
 	width: 100%;
-	background-color: white;
   }
 
   header.header h1 {
-	font-size: 6rem;
-	font-size: 8vw;
-	color: black;
+	font-size: 12vw;
+	color: white;
 	text-align: center;
 	margin-top: 0;
 	text-transform: uppercase;
@@ -32,7 +30,7 @@
 	left: -2px;
 	width: 100%;
 	color: white;
-	text-shadow: 2px 0 #f9f8f8, -1px 0 red, -2px 0 whitesmoke;
+	text-shadow: 2px 0 #f9f8f8, -1px 0 rgb(255, 0, 221), -2px 0 whitesmoke;
 	overflow: hidden;
 	animation: crt-me 2500ms infinite linear alternate-reverse;
   }

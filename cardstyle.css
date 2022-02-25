@@ -1,7 +1,7 @@
 :root {
-  --color1: rgb(223, 221, 128);
+  --color1: rgb(243, 240, 83);
   --color2: #c4c4c400;
-  --kepler1a: rgb(223, 221, 128);
+  --kepler1a: rgb(243, 240, 83);
   --kepler1b: #c4c4c400;
   --back: url(https://cdn2.bulbagarden.net/upload/1/17/Cardback.jpg);
   --kepler1front: url(cards/KeplerGenerator_01.png);
@@ -24,6 +24,38 @@
   --kepler18front: url(cards/KeplerGenerator_18.png);
   --kepler19front: url(cards/KeplerGenerator_19.png);
   --kepler20front: url(cards/KeplerGenerator_20.png);
+  --kepler21front: url(cards/KeplerGenerator_21.png);
+  --kepler22front: url(cards/KeplerGenerator_22.png);
+  --kepler23front: url(cards/KeplerGenerator_23.png);
+  --kepler24front: url(cards/KeplerGenerator_24.png);
+  --kepler25front: url(cards/KeplerGenerator_25.png);
+  --kepler26front: url(cards/KeplerGenerator_26.png);
+  --kepler27front: url(cards/KeplerGenerator_27.png);
+  --kepler28front: url(cards/KeplerGenerator_28.png);
+  --kepler29front: url(cards/KeplerGenerator_29.png);
+  --kepler30front: url(cards/KeplerGenerator_30.png);
+  --kepler31front: url(cards/KeplerGenerator_31.png);
+  --kepler32front: url(cards/KeplerGenerator_32.png);
+  --kepler33front: url(cards/KeplerGenerator_33.png);
+  --kepler34front: url(cards/KeplerGenerator_34.png);
+  --kepler35front: url(cards/KeplerGenerator_35.png);
+  --kepler36front: url(cards/KeplerGenerator_36.png);
+  --kepler37front: url(cards/KeplerGenerator_37.png);
+  --kepler38front: url(cards/KeplerGenerator_38.png);
+  --kepler39front: url(cards/KeplerGenerator_39.png);
+  --kepler40front: url(cards/KeplerGenerator_40.png);
+  --kepler41front: url(cards/KeplerGenerator_41.png);
+  --kepler42front: url(cards/KeplerGenerator_42.png);
+  --kepler43front: url(cards/KeplerGenerator_43.png);
+  --kepler44front: url(cards/KeplerGenerator_44.png);
+  --kepler45front: url(cards/KeplerGenerator_45.png);
+  --kepler46front: url(cards/KeplerGenerator_46.png);
+  --kepler47front: url(cards/KeplerGenerator_47.png);
+  --kepler48front: url(cards/KeplerGenerator_48.png);
+  --kepler49front: url(cards/KeplerGenerator_49.png);
+  --kepler50front: url(cards/KeplerGenerator_50.png);
+  --kepler51front: url(cards/KeplerGenerator_51.png);
+  --kepler52front: url(cards/KeplerGenerator_52.png);
 }
 
 .card {
@@ -36,7 +68,7 @@
   z-index: 10;
   touch-action: none;
   /* border-radius: 5%/3.5%; */
-  box-shadow: -5px -5px 5px -5px var(--color1), 5px 5px 5px -5px var(--color2),
+  box-shadow: -12px -12px 12px -12px var(--color1), -12px -12px 12px -12px var(--color2),
     -7px -7px 10px -5px transparent, 7px 7px 10px -5px transparent,
     0 0 5px 0px rgba(255, 255, 255, 0), 0 55px 35px -20px rgba(0, 0, 0, 0.5);
   transition: transform 0.5s ease, box-shadow 0.2s ease;
@@ -182,51 +214,211 @@
   --front: var(--kepler20front);
 }
 
+.card.kepler20 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler20front);
+}
+
+.card.kepler21 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler21front);
+}
+
 .card.kepler22 {
   --color1: var(--kepler1a);
   --color2: var(--kepler1b);
   --front: var(--kepler22front);
 }
+
+.card.kepler23 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler23front);
+}
+
+.card.kepler24 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler24front);
+}
+
+.card.kepler25 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler25front);
+}
+
+.card.kepler26 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler26front);
+}
+
+.card.kepler27 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler27front);
+}
+
+.card.kepler28 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler28front);
+}
+
+.card.kepler29 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler29front);
+}
+
+.card.kepler30 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler30front);
+}
+
+.card.kepler31 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler31front);
+}
+
 .card.kepler32 {
   --color1: var(--kepler1a);
   --color2: var(--kepler1b);
   --front: var(--kepler32front);
 }
+
+.card.kepler33 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler33front);
+}
+
+.card.kepler34 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler34front);
+}
+
+.card.kepler35 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler35front);
+}
+
+.card.kepler36 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler36front);
+}
+
+.card.kepler37 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler37front);
+}
+
+.card.kepler38 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler38front);
+}
+
+.card.kepler39 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler39front);
+}
+
+.card.kepler40 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler40front);
+}
+
+.card.kepler41 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler41front);
+}
+
+.card.kepler42 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler42front);
+}
+
+.card.kepler43 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler43front);
+}
+
+.card.kepler44 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler44front);
+}
+
+.card.kepler45 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler45front);
+}
+
+.card.kepler46 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler46front);
+}
+
+.card.kepler47 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler47front);
+}
+
 .card.kepler48 {
   --color1: var(--kepler1a);
   --color2: var(--kepler1b);
   --front: var(--kepler48front);
 }
+
+.card.kepler49 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler49front);
+}
+
+.card.kepler50 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler50front);
+}
+
 .card.kepler51 {
   --color1: var(--kepler1a);
   --color2: var(--kepler1b);
   --front: var(--kepler51front);
 }
-.card.kepler54 {
-  --color1: var(--kepler1a);
-  --color2: var(--kepler1b);
-  --front: var(--kepler54front);
-}
-.card.kepler57 {
-  --color1: var(--kepler1a);
-  --color2: var(--kepler1b);
-  --front: var(--kepler57front);
-}
-.card.kepler58 {
-  --color1: var(--kepler1a);
-  --color2: var(--kepler1b);
-  --front: var(--kepler58front);
-}
 
-
+.card.kepler52 {
+  --color1: var(--kepler1a);
+  --color2: var(--kepler1b);
+  --front: var(--kepler52front);
+}
 /* .card.kangchenjunga {
-	--color1: #daec9b;
-	--color2: #b0cc6f;
-	--color3: #20fdebcc;
-	--color4: #8ea7d6;
-	--color5: #b98cce;
-	--front: var(--kangchenjungafront);
-  } */
+	  --color1: #daec9b;
+	  --color2: #b0cc6f;
+	  --color3: #20fdebcc;
+	  --color4: #8ea7d6;
+	  --color5: #b98cce;
+	  --front: var(--kangchenjungafront);
+	} */
 
 .card:before,
 .card:after {
@@ -504,13 +696,13 @@
   }
 }
 /* .card.kangchenjunga:hover {
-	box-shadow: 0 0 30px -5px white, 0 0 10px -2px white, 0 55px 35px -20px rgba(0, 0, 0, 0.5);
-  }
-  
-  .card.kangchenjunga:hover:before,
-  .card.kangchenjunga.active:before {
-	background-image: linear-gradient(115deg, transparent 20%, var(--color1) 36%, var(--color2) 43%, var(--color3) 50%, var(--color4) 57%, var(--color5) 64%, transparent 80%);
-  } */
+	  box-shadow: 0 0 30px -5px white, 0 0 10px -2px white, 0 55px 35px -20px rgba(0, 0, 0, 0.5);
+	}
+	
+	.card.kangchenjunga:hover:before,
+	.card.kangchenjunga.active:before {
+	  background-image: linear-gradient(115deg, transparent 20%, var(--color1) 36%, var(--color2) 43%, var(--color3) 50%, var(--color4) 57%, var(--color5) 64%, transparent 80%);
+	} */
 
 .demo .card {
   background-image: var(--back);
@@ -605,9 +797,9 @@
     transform: translate3d(0.1px, 0.1px, 0.1px);
   }
 
-  .card { 
-	width: 71.5vw;
-	height: 100vw;   
+  .card {
+    width: 71.5vw;
+    height: 100vw;
   }
 }
 .cards .card:nth-child(2),

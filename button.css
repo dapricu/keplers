@@ -76,7 +76,7 @@
 }
 
 .raise {
-  --color: #000000;
+  --color: #ffffff;
   --hover: #ffd000;
 }
 
@@ -101,7 +101,7 @@ button {
 }
 button:hover, button:focus {
   border-color: var(--hover);
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 button {

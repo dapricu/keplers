@@ -14,30 +14,27 @@
 
 body {
   margin: 0;
-  background-color: darkgrey;
 }
 
 main {
-  background: #fff;
   position: relative;
-  border: 1px solid #fff;
 }
 
 .traits {
-  width: 40%; 
-  padding-left: 1vw; 
-  padding-right: 1vw; 
-  padding-top: 10vh; 
-  padding-bottom: 10vh; 
-  display: block; 
-  margin-left: auto; 
+  width: 40%;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  display: block;
+  margin-left: auto;
   margin-right: auto;
 }
 
 @media screen and (max-width: 900px) {
   .traits {
     width: 80%;
-    padding-top: 1vh; 
-    padding-bottom: 1vh; 
+    padding-top: 1vh;
+    padding-bottom: 1vh;
   }
 }

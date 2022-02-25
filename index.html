@@ -2,6 +2,8 @@
 <html>
 
 <head>
+	<title>Keplers</title>
+	<link rel="icon" type="image/x-icon" href="icon.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
@@ -15,26 +17,33 @@
 	<link rel="stylesheet" href="glitch.css">
 	<link rel="stylesheet" href="scrolltotop.css">
 	<link rel="stylesheet" href="images.css">
+	<link rel="stylesheet" href="stars.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
 
 </head>
 
 <div class="wrapper">
+	<div id='stars'></div>
+	<div id='stars2'></div>
+	<div id='stars3'></div>
+
 	<div class="wrap">
 		<header class="header thetop">
 			<h1 class="glitched">KEPLERS</h1>
-			<h2 style="display: block; margin-left: auto; text-align: center; text-transform: uppercase;"> A Trading Cards Collection featuring the 4933
+			<h2 style="display: block; margin-left: auto; text-align: center; text-transform: uppercase;"> A Trading
+				Cards Collection featuring the 4933
 				exoplanets confirmed by NASA Exoplanet Science Institute</h2>
-			<h2 style="display: block; margin-left: auto; text-align: center; text-transform: uppercase;"> Built on the Algorand blockchain</h2>
+			<h2 style="display: block; margin-left: auto; text-align: center; text-transform: uppercase;"> Built on the
+				Algorand blockchain</h2>
 		</header>
 
-		<img class="traits" src="Traits.png"> 
+		<img class="traits" src="Traits2.png">
 		<main>
 			<br><br>
 
 			<div class="myBtnContainer" id="myBtnContainer">
-				<button class="active raise" onclick="filterSelection('all')"> All</button>
+				<button class="active raise" onclick="filterSelection('all')"> SAMPLES </button>
 				<!-- <button class="raise" onclick="filterSelection('common')"> Common </button>
 				<button class="raise" onclick="filterSelection('un')"> Uncommon</button>
 				<button class="raise" onclick="filterSelection('rare')"> Rare </button>
@@ -45,77 +54,61 @@
 			<br><br>
 
 			<section class="cards">
-				<a class="filterDiv common card kepler1 animated"
-					href="https://www.randgallery.com/algo-collection/?address=306183859" target="_blank"> </a>
-				<a class="filterDiv common card kepler2 animated"
-					href="https://www.randgallery.com/algo-collection/?address=306187531" target="_blank"> </a>
-				<a class="filterDiv common card kepler3 animated"
-					href="https://www.randgallery.com/algo-collection/?address=332016564" target="_blank"> </a>
-				<a class="filterDiv common card kepler4 animated"
-					href="https://www.randgallery.com/algo-collection/?address=332017894" target="_blank"> </a>
-				<a class="filterDiv un card kepler5 animated"
-					href="https://www.randgallery.com/algo-collection/?address=400877134" target="_blank"> </a>
-				<a class="filterDiv rare card kepler6 animated"
-					href="https://www.randgallery.com/algo-collection/?address=527475282" target="_blank"> </a>
-				<a class="filterDiv rare card kepler7 animated"
-					href="https://www.randgallery.com/algo-collection/?address=527477069" target="_blank"> </a>
-				<a class="filterDiv rare card kepler8 animated"
-					href="https://www.randgallery.com/algo-collection/?address=527479654" target="_blank"> </a>
-				<a class="filterDiv common card kepler9 animated"
-					href="https://www.randgallery.com/algo-collection/?address=306183859" target="_blank"> </a>
-				<a class="filterDiv common card kepler10 animated"
-					href="https://www.randgallery.com/algo-collection/?address=306187531" target="_blank"> </a>
-				<a class="filterDiv common card kepler11 animated"
-					href="https://www.randgallery.com/algo-collection/?address=332016564" target="_blank"> </a>
-				<a class="filterDiv common card kepler12 animated"
-					href="https://www.randgallery.com/algo-collection/?address=332017894" target="_blank"> </a>
-				<a class="filterDiv un card kepler13 animated"
-					href="https://www.randgallery.com/algo-collection/?address=527475282" target="_blank"> </a>
-				<a class="filterDiv rare card kepler14 animated"
-					href="https://www.randgallery.com/algo-collection/?address=527477069" target="_blank"> </a>
-				<a class="filterDiv rare card kepler15 animated"
-					href="https://www.randgallery.com/algo-collection/?address=527479654" target="_blank"> </a>
-				<a class="filterDiv common card kepler16 animated"
-					href="https://www.randgallery.com/algo-collection/?address=332017894" target="_blank"> </a>
-				<a class="filterDiv un card kepler17 animated"
-					href="https://www.randgallery.com/algo-collection/?address=400877134" target="_blank"> </a>
-				<a class="filterDiv rare card kepler18 animated"
-					href="https://www.randgallery.com/algo-collection/?address=527475282" target="_blank"> </a>
-				<a class="filterDiv rare card kepler19 animated"
-					href="https://www.randgallery.com/algo-collection/?address=527477069" target="_blank"> </a>
-				<a class="filterDiv rare card kepler20 animated"
-					href="https://www.randgallery.com/algo-collection/?address=527479654" target="_blank"> </a>
+				<a class="filterDiv card kepler1 animated"></a>
+				<!-- href="https://www.randgallery.com/algo-collection/?address=306183859" target="_blank"> </a> -->
+				<a class="filterDiv card kepler2 animated"></a>
+				<a class="filterDiv card kepler3 animated"></a>
+				<a class="filterDiv card kepler4 animated"></a>
+				<a class="filterDiv card kepler5 animated"></a>
+				<a class="filterDiv card kepler6 animated"></a>
+				<a class="filterDiv card kepler7 animated"></a>
+				<a class="filterDiv card kepler8 animated"></a>
+				<a class="filterDiv card kepler9 animated"></a>
+				<a class="filterDiv card kepler10 animated"></a>
+				<a class="filterDiv card kepler11 animated"></a>
+				<a class="filterDiv card kepler12 animated"></a>
+				<a class="filterDiv card kepler13 animated"></a>
+				<a class="filterDiv card kepler14 animated"></a>
+				<a class="filterDiv card kepler15 animated"></a>
+				<a class="filterDiv card kepler16 animated"></a>
+				<a class="filterDiv card kepler17 animated"></a>
+				<a class="filterDiv card kepler18 animated"></a>
+				<a class="filterDiv card kepler19 animated"></a>
+				<a class="filterDiv card kepler20 animated"></a>
+				<a class="filterDiv card kepler21 animated"></a>
+				<a class="filterDiv card kepler22 animated"></a>
+				<a class="filterDiv card kepler23 animated"></a>
+				<a class="filterDiv card kepler24 animated"></a>
+				<a class="filterDiv card kepler25 animated"></a>
+				<a class="filterDiv card kepler26 animated"></a>
+				<a class="filterDiv card kepler27 animated"></a>
+				<a class="filterDiv card kepler28 animated"></a>
+				<a class="filterDiv card kepler29 animated"></a>
+				<a class="filterDiv card kepler30 animated"></a>
+				<a class="filterDiv card kepler31 animated"></a>
+				<a class="filterDiv card kepler32 animated"></a>
+				<a class="filterDiv card kepler33 animated"></a>
+				<a class="filterDiv card kepler34 animated"></a>
+				<a class="filterDiv card kepler35 animated"></a>
+				<a class="filterDiv card kepler36 animated"></a>
+				<a class="filterDiv card kepler37 animated"></a>
+				<a class="filterDiv card kepler38 animated"></a>
+				<a class="filterDiv card kepler39 animated"></a>
+				<a class="filterDiv card kepler40 animated"></a>
+				<a class="filterDiv card kepler41 animated"></a>
+				<a class="filterDiv card kepler42 animated"></a>
+				<a class="filterDiv card kepler43 animated"></a>
+				<a class="filterDiv card kepler44 animated"></a>
+				<a class="filterDiv card kepler45 animated"></a>
+				<a class="filterDiv card kepler46 animated"></a>
+				<a class="filterDiv card kepler47 animated"></a>
+				<a class="filterDiv card kepler48 animated"></a>
+				<a class="filterDiv card kepler49 animated"></a>
+				<a class="filterDiv card kepler50 animated"></a>
+				<a class="filterDiv card kepler51 animated"></a>
+				<a class="filterDiv card kepler52 animated"></a>
 
-				<!-- <a class="filterDiv rare card kepler57 animated"
-					href="https://www.randgallery.com/algo-collection/?address=527481591" target="_blank"> </a>
-				<a class="filterDiv epic card kepler58 animated"
-					href="https://www.randgallery.com/algo-collection/?address=527483715" target="_blank"> </a> -->
-
-
-				<!-- <div class="filterDiv 8000+ card k2 animated"></div>
-				<div class="filterDiv 8000+ card kangchenjunga animated"></div>
-				<div class="filterDiv 8000+ card lhotse animated"></div>
-				<div class="filterDiv 8000+ card makalu animated"></div>
-				<div class="filterDiv 8000+ card chooyu animated"></div>
-				<div class="filterDiv 8000+ card dhaulagirii animated"></div>
-				<div class="filterDiv 8000+ card manaslu animated"></div>
-				<div class="filterDiv 8000+ card nangaparbat animated"></div>
-				<div class="filterDiv 8000+ card annapurnaI animated"></div>
-				<div class="filterDiv 8000+ card gasherbrumI animated"></div>
-				<div class="filterDiv 8000+ card broadpeak animated"></div>
-				<div class="filterDiv 8000+ card gasherbrumII animated"></div>
-				<div class="filterDiv 8000+ card shishapangma animated"></div>
-				<div class="filterDiv 7Summits card everest7 animated"></div>
-				<div class="filterDiv 7Summits card aconcagua animated"></div>
-				<div class="filterDiv 7Summits card denali animated"></div>
-				<div class="filterDiv 7Summits card kilimanjaro animated"></div>
-				<div class="filterDiv 7Summits card elbrus animated"></div>
-				<div class="filterDiv 7Summits card vinson animated"></div>
-				<div class="filterDiv 7Summits card puncak animated"></div> -->
-
-			</section>
-
-			<br><br><br><br>
+				<br><br><br><br>
 
 		</main>
 
@@ -143,6 +136,7 @@
 <script src="footeranimation.js"></script>
 <script src="glitch.js"></script>
 <script src="scrolltotop.js"></script>
+<script src="bg.js"></script>
 
 
 </html>

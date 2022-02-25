@@ -26,6 +26,9 @@ $cards
     var w = $card.width();
     var px = Math.abs(Math.floor(100 / (w) * l)-100);
     var py = Math.abs(Math.floor(100 / (h) * t)-100);
+    // console.log("px = " + px)
+    // console.log("py = " + py)
+    
     var pa = (50-px)+(50-py);
     // math for gradient / background positions
     var lp = (50+(px - 50)/1.5);
@@ -37,9 +40,12 @@ $cards
     var tx = ((lp - 50)/1.5) * .5;
     // css to apply for active card
     var grad_pos = `background-position: ${lp}% ${tp}%;`
+    // console.log("tx = " + tx)
+    // console.log("ty = " + ty)
+
     var sprk_pos = `background-position: ${px_spark}% ${py_spark}%;`
     var opc = `opacity: ${p_opc/100};`
-    var tf = `transform: rotateX(${ty}deg) rotateY(${tx}deg)`
+    var tf = `transform: rotateX(${ty/10}deg) rotateY(${tx/10}deg)`
     // need to use a <style> tag for psuedo elements
     var style = `
       .card:hover:before { ${grad_pos} }
@@ -54,12 +60,5 @@ $cards
       return false; 
     }
     clearTimeout(x);
-  }).on("mouseout touchend touchcancel", function() {
-    // remove css, apply custom animation on end
-    var $card = $(this);
-    $style.html("");
-    $card.removeAttr("style");
-    x = setTimeout(function() {
-      $card.addClass("animated");
-    },2500);
-  });
+  })
+  ;
