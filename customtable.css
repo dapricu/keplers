@@ -5,20 +5,30 @@
   color: white !important;
 }
 
-tbody, td, tfoot, th, thead, tr {
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
   border: none !important;
 }
 
 a {
-	text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 body {
-	background-color: transparent !important;
-	color: white !important;
-	font-family: "Barlow Condensed" !important;
+  background-color: transparent !important;
+  color: white !important;
+  font-family: "Barlow Condensed" !important;
 }
 
-ul.pagination {
-	justify-content: center !important;
+/* ul.pagination {
+  justify-content: center !important;
+} */
+
+table {
+  margin-left: auto;
+  margin-right: auto;
 }
