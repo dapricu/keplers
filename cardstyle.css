@@ -343,7 +343,7 @@
 .card.kepler42 {
   --color1: mediumorchid;
   --color2: var(--kepler1b);
-  --front: var(--kepler41front);
+  --front: var(--kepler42front);
 }
 
 .card.kepler43 {

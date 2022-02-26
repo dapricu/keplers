@@ -8,6 +8,12 @@ div.container {
 
 .dataTables_length {
   color: white !important;
+  font-size: x-large;
+}
+
+div.dataTables_length select {
+  color: white !important;
+  background-color: #2b2b2b !important;  
 }
 
 @media screen and (max-width: 640px) {

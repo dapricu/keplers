@@ -4,7 +4,7 @@ $(document).ready(function() {
 		"ordering": false,
 		"responsive": true,
 		"searching": false,
-        "lengthMenu": [2, 4, 10],
+        "lengthMenu": [4, 8],
 		"language": {
 			"lengthMenu": "Show _MENU_ rows",
 			"info": "Showing _START_ to _END_ of _TOTAL_ rows",
@@ -13,6 +13,5 @@ $(document).ready(function() {
             selector: 'td:nth-child(2)'
         },
         responsive: true
-
     } );
 } );
