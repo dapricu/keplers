@@ -4,7 +4,7 @@ $(document).ready(function() {
 		"ordering": false,
 		"responsive": true,
 		"searching": false,
-        "lengthMenu": [4, 8],
+        "lengthMenu": [2, 4, 8],
 		"language": {
 			"lengthMenu": "Show _MENU_ rows",
 			"info": "Showing _START_ to _END_ of _TOTAL_ rows",
