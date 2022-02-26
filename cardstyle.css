@@ -67,6 +67,7 @@
   overflow: hidden;
   z-index: 10;
   touch-action: none;
+  border: none !important;
   /* border-radius: 5%/3.5%; */
   box-shadow: -12px -12px 12px -12px var(--color1), -12px -12px 12px -12px var(--color2),
     -7px -7px 10px -5px transparent, 7px 7px 10px -5px transparent,
