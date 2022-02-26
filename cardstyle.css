@@ -95,330 +95,316 @@
 }
 
 .card.kepler1 {
-  --color1: var(--kepler1a);
+  --color1: mediumaquamarine;
   --color2: var(--kepler1b);
   --front: var(--kepler1front);
 }
 
 .card.kepler2 {
-  --color1: var(--kepler1a);
+  --color1: chocolate;
   --color2: var(--kepler1b);
   --front: var(--kepler2front);
 }
 
 .card.kepler3 {
-  --color1: var(--kepler1a);
+  --color1: mediumspringgreen;
   --color2: var(--kepler1b);
   --front: var(--kepler3front);
 }
 
 .card.kepler4 {
-  --color1: var(--kepler1a);
+  --color1: rebeccapurple;
   --color2: var(--kepler1b);
   --front: var(--kepler4front);
 }
 
 .card.kepler5 {
-  --color1: var(--kepler1a);
+  --color1: fuchsia;
   --color2: var(--kepler1b);
   --front: var(--kepler5front);
 }
 
 .card.kepler6 {
-  --color1: var(--kepler1a);
+  --color1: darkkhaki;
   --color2: var(--kepler1b);
   --front: var(--kepler6front);
 }
 
 .card.kepler7 {
-  --color1: var(--kepler1a);
+  --color1: olivedrab;
   --color2: var(--kepler1b);
   --front: var(--kepler7front);
 }
 
 .card.kepler8 {
-  --color1: var(--kepler1a);
+  --color1: gray;
   --color2: var(--kepler1b);
   --front: var(--kepler8front);
 }
 
 .card.kepler9 {
-  --color1: var(--kepler1a);
+  --color1: dodgerblue;
   --color2: var(--kepler1b);
   --front: var(--kepler9front);
 }
 
 .card.kepler10 {
-  --color1: var(--kepler1a);
+  --color1: silver;
   --color2: var(--kepler1b);
   --front: var(--kepler10front);
 }
 
 .card.kepler11 {
-  --color1: var(--kepler1a);
+  --color1: lightseagreen;
   --color2: var(--kepler1b);
   --front: var(--kepler11front);
 }
 
 .card.kepler12 {
-  --color1: var(--kepler1a);
+  --color1: violet;
   --color2: var(--kepler1b);
   --front: var(--kepler12front);
 }
 
 .card.kepler13 {
-  --color1: var(--kepler1a);
+  --color1: greenyellow;
   --color2: var(--kepler1b);
   --front: var(--kepler13front);
 }
 
 .card.kepler14 {
-  --color1: var(--kepler1a);
+  --color1: orangered;
   --color2: var(--kepler1b);
   --front: var(--kepler14front);
 }
 
 .card.kepler15 {
-  --color1: var(--kepler1a);
+  --color1: steelblue;
   --color2: var(--kepler1b);
   --front: var(--kepler15front);
 }
 
 .card.kepler16 {
-  --color1: var(--kepler1a);
+  --color1: turquoise;
   --color2: var(--kepler1b);
   --front: var(--kepler16front);
 }
 
 .card.kepler17 {
-  --color1: var(--kepler1a);
+  --color1: sandybrown;
   --color2: var(--kepler1b);
   --front: var(--kepler17front);
 }
 
 .card.kepler18 {
-  --color1: var(--kepler1a);
+  --color1: forestgreen;
   --color2: var(--kepler1b);
   --front: var(--kepler18front);
 }
 
 .card.kepler19 {
-  --color1: var(--kepler1a);
+  --color1: silver;
   --color2: var(--kepler1b);
   --front: var(--kepler19front);
 }
 
 .card.kepler20 {
-  --color1: var(--kepler1a);
-  --color2: var(--kepler1b);
-  --front: var(--kepler20front);
-}
-
-.card.kepler20 {
-  --color1: var(--kepler1a);
+  --color1: limegreen;
   --color2: var(--kepler1b);
   --front: var(--kepler20front);
 }
 
 .card.kepler21 {
-  --color1: var(--kepler1a);
+  --color1: greenyellow;
   --color2: var(--kepler1b);
   --front: var(--kepler21front);
 }
 
 .card.kepler22 {
-  --color1: var(--kepler1a);
+  --color1: aqua;
   --color2: var(--kepler1b);
   --front: var(--kepler22front);
 }
 
 .card.kepler23 {
-  --color1: var(--kepler1a);
+  --color1: gray;
   --color2: var(--kepler1b);
   --front: var(--kepler23front);
 }
 
 .card.kepler24 {
-  --color1: var(--kepler1a);
+  --color1: crimson;
   --color2: var(--kepler1b);
   --front: var(--kepler24front);
 }
 
 .card.kepler25 {
-  --color1: var(--kepler1a);
+  --color1: coral;
   --color2: var(--kepler1b);
   --front: var(--kepler25front);
 }
 
 .card.kepler26 {
-  --color1: var(--kepler1a);
+  --color1: olivedrab;
   --color2: var(--kepler1b);
   --front: var(--kepler26front);
 }
 
 .card.kepler27 {
-  --color1: var(--kepler1a);
+  --color1: gold;
   --color2: var(--kepler1b);
   --front: var(--kepler27front);
 }
 
 .card.kepler28 {
-  --color1: var(--kepler1a);
+  --color1: deeppink;
   --color2: var(--kepler1b);
   --front: var(--kepler28front);
 }
 
 .card.kepler29 {
-  --color1: var(--kepler1a);
+  --color1: blue;
   --color2: var(--kepler1b);
   --front: var(--kepler29front);
 }
 
 .card.kepler30 {
-  --color1: var(--kepler1a);
+  --color1: saddlebrown;
   --color2: var(--kepler1b);
   --front: var(--kepler30front);
 }
 
 .card.kepler31 {
-  --color1: var(--kepler1a);
+  --color1: pink;
   --color2: var(--kepler1b);
   --front: var(--kepler31front);
 }
 
 .card.kepler32 {
-  --color1: var(--kepler1a);
+  --color1: sandybrown;
   --color2: var(--kepler1b);
   --front: var(--kepler32front);
 }
 
 .card.kepler33 {
-  --color1: var(--kepler1a);
+  --color1: mediumaquamarine;
   --color2: var(--kepler1b);
   --front: var(--kepler33front);
 }
 
 .card.kepler34 {
-  --color1: var(--kepler1a);
+  --color1: lavender;
   --color2: var(--kepler1b);
   --front: var(--kepler34front);
 }
 
 .card.kepler35 {
-  --color1: var(--kepler1a);
+  --color1: teal;
   --color2: var(--kepler1b);
   --front: var(--kepler35front);
 }
 
 .card.kepler36 {
-  --color1: var(--kepler1a);
+  --color1: steelblue;
   --color2: var(--kepler1b);
   --front: var(--kepler36front);
 }
 
 .card.kepler37 {
-  --color1: var(--kepler1a);
+  --color1: mediumspringgreen;
   --color2: var(--kepler1b);
   --front: var(--kepler37front);
 }
 
 .card.kepler38 {
-  --color1: var(--kepler1a);
+  --color1: lightseagreen;
   --color2: var(--kepler1b);
   --front: var(--kepler38front);
 }
 
 .card.kepler39 {
-  --color1: var(--kepler1a);
+  --color1: purple;
   --color2: var(--kepler1b);
   --front: var(--kepler39front);
 }
 
 .card.kepler40 {
-  --color1: var(--kepler1a);
+  --color1: crimson;
   --color2: var(--kepler1b);
   --front: var(--kepler40front);
 }
 
 .card.kepler41 {
-  --color1: var(--kepler1a);
+  --color1: lavender;
   --color2: var(--kepler1b);
   --front: var(--kepler41front);
 }
 
 .card.kepler42 {
-  --color1: var(--kepler1a);
+  --color1: mediumorchid;
   --color2: var(--kepler1b);
-  --front: var(--kepler42front);
+  --front: var(--kepler41front);
 }
 
 .card.kepler43 {
-  --color1: var(--kepler1a);
+  --color1: darkkhaki;
   --color2: var(--kepler1b);
   --front: var(--kepler43front);
 }
 
 .card.kepler44 {
-  --color1: var(--kepler1a);
+  --color1: mediumseagreen;
   --color2: var(--kepler1b);
   --front: var(--kepler44front);
 }
 
 .card.kepler45 {
-  --color1: var(--kepler1a);
+  --color1: orangered;
   --color2: var(--kepler1b);
   --front: var(--kepler45front);
 }
 
 .card.kepler46 {
-  --color1: var(--kepler1a);
+  --color1: forestgreen;
   --color2: var(--kepler1b);
   --front: var(--kepler46front);
 }
 
 .card.kepler47 {
-  --color1: var(--kepler1a);
+  --color1: violet;
   --color2: var(--kepler1b);
   --front: var(--kepler47front);
 }
 
 .card.kepler48 {
-  --color1: var(--kepler1a);
+  --color1: mediumseagreen;
   --color2: var(--kepler1b);
   --front: var(--kepler48front);
 }
 
 .card.kepler49 {
-  --color1: var(--kepler1a);
+  --color1: turquoise;
   --color2: var(--kepler1b);
   --front: var(--kepler49front);
 }
 
 .card.kepler50 {
-  --color1: var(--kepler1a);
+  --color1: sandybrown;
   --color2: var(--kepler1b);
   --front: var(--kepler50front);
 }
 
 .card.kepler51 {
-  --color1: var(--kepler1a);
+  --color1: deeppink;
   --color2: var(--kepler1b);
   --front: var(--kepler51front);
 }
 
 .card.kepler52 {
-  --color1: var(--kepler1a);
+  --color1: mediumspringgreen;
   --color2: var(--kepler1b);
   --front: var(--kepler52front);
 }
-/* .card.kangchenjunga {
-	  --color1: #daec9b;
-	  --color2: #b0cc6f;
-	  --color3: #20fdebcc;
-	  --color4: #8ea7d6;
-	  --color5: #b98cce;
-	  --front: var(--kangchenjungafront);
-	} */
 
 .card:before,
 .card:after {
@@ -516,8 +502,8 @@
 
 .card.animated {
   transition: none;
-  -webkit-animation: holoCard 12s ease 0s 1;
-  animation: holoCard 12s ease 0s 1;
+  /* -webkit-animation: holoCard 12s ease 0s 1; */
+  /* animation: holoCard 12s ease 0s 1; */
 }
 .card.animated:before {
   transition: none;
@@ -695,14 +681,6 @@
     transform: rotateZ(-3deg) rotateX(-12deg) rotateY(-27deg);
   }
 }
-/* .card.kangchenjunga:hover {
-	  box-shadow: 0 0 30px -5px white, 0 0 10px -2px white, 0 55px 35px -20px rgba(0, 0, 0, 0.5);
-	}
-	
-	.card.kangchenjunga:hover:before,
-	.card.kangchenjunga.active:before {
-	  background-image: linear-gradient(115deg, transparent 20%, var(--color1) 36%, var(--color2) 43%, var(--color3) 50%, var(--color4) 57%, var(--color5) 64%, transparent 80%);
-	} */
 
 .demo .card {
   background-image: var(--back);
@@ -774,6 +752,7 @@
   position: relative;
   z-index: 1;
   transform: translate3d(0.1px, 0.1px, 0.1px);
+  padding-bottom: 180px;
 }
 
 .demo {
@@ -797,10 +776,10 @@
     transform: translate3d(0.1px, 0.1px, 0.1px);
   }
 
-  .card {
+  /* .card {
     width: 71.5vw;
     height: 100vw;
-  }
+  } */
 }
 .cards .card:nth-child(2),
 .cards .card:nth-child(2):before,

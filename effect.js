@@ -45,7 +45,7 @@ $cards
 
     var sprk_pos = `background-position: ${px_spark}% ${py_spark}%;`
     var opc = `opacity: ${p_opc/100};`
-    var tf = `transform: rotateX(${ty/10}deg) rotateY(${tx/10}deg)`
+    var tf = `transform: rotateX(${ty}deg) rotateY(${tx}deg)`
     // need to use a <style> tag for psuedo elements
     var style = `
       .card:hover:before { ${grad_pos} }

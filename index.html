@@ -5,8 +5,8 @@
 	<title>Keplers</title>
 	<link rel="icon" type="image/x-icon" href="icon.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 	<link rel="stylesheet" href="cardstyle.css">
 	<link rel="stylesheet" href="titlestyle.css">
 	<link rel="stylesheet" href="filtering.css">
@@ -18,8 +18,14 @@
 	<link rel="stylesheet" href="scrolltotop.css">
 	<link rel="stylesheet" href="images.css">
 	<link rel="stylesheet" href="stars.css">
+	<link rel="stylesheet" href="datatableshack.css">
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/material-components-web/4.0.0/material-components-web.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+	<link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.bootstrap.min.css">
+
+
+	<!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
 
 </head>
 
@@ -42,20 +48,112 @@
 		<main>
 			<br><br>
 
-			<div class="myBtnContainer" id="myBtnContainer">
-				<button class="active raise" onclick="filterSelection('all')"> SAMPLES </button>
-				<!-- <button class="raise" onclick="filterSelection('common')"> Common </button>
+			<!-- <div class="myBtnContainer" id="myBtnContainer">
+				<button class="active raise" onclick="filterSelection('all')"> SAMPLES </button> -->
+			<!-- <button class="raise" onclick="filterSelection('common')"> Common </button>
 				<button class="raise" onclick="filterSelection('un')"> Uncommon</button>
 				<button class="raise" onclick="filterSelection('rare')"> Rare </button>
 				<button class="raise" onclick="filterSelection('epic')"> Epic </button> -->
 
-			</div>
+	</div>
 
-			<br><br>
+	<section class="cards">
+		<table id="cardstable" class="table table-striped nowrap" style="width:100%;">
+			<thead>
+				<tr>
+					<th>A</th>
+					<th>B</th>
+					<th>C</th>
+					<th>D</th>
+				</tr>
+			</thead>
 
-			<section class="cards">
-				<a class="filterDiv card kepler1 animated"></a>
-				<!-- href="https://www.randgallery.com/algo-collection/?address=306183859" target="_blank"> </a> -->
+			<tbody>
+				<tr>
+					<td><a class="filterDiv card kepler1 animated"></a></td>
+					<td><a class="filterDiv card kepler2 animated"></a></td>
+					<td><a class="filterDiv card kepler3 animated"></a></td>
+					<td><a class="filterDiv card kepler4 animated"></a></td>
+				</tr>
+				<tr>
+					<td><a class="filterDiv card kepler5 animated"></a></td>
+					<td><a class="filterDiv card kepler6 animated"></a></td>
+					<td><a class="filterDiv card kepler7 animated"></a></td>
+					<td><a class="filterDiv card kepler8 animated"></a></td>
+				</tr>
+				<tr>
+					<td><a class="filterDiv card kepler9 animated"></a></td>
+					<td><a class="filterDiv card kepler10 animated"></a></td>
+					<td><a class="filterDiv card kepler11 animated"></a></td>
+					<td><a class="filterDiv card kepler12 animated"></a></td>
+				</tr>
+				<tr>
+					<td><a class="filterDiv card kepler13 animated"></a></td>
+					<td><a class="filterDiv card kepler14 animated"></a></td>
+					<td><a class="filterDiv card kepler15 animated"></a></td>
+					<td><a class="filterDiv card kepler16 animated"></a></td>
+				</tr>
+				<tr>
+					<td><a class="filterDiv card kepler17 animated"></a></td>
+					<td><a class="filterDiv card kepler18 animated"></a></td>
+					<td><a class="filterDiv card kepler19 animated"></a></td>
+					<td><a class="filterDiv card kepler20 animated"></a></td>
+				</tr>
+				<tr>
+					<td><a class="filterDiv card kepler21 animated"></a></td>
+					<td><a class="filterDiv card kepler22 animated"></a></td>
+					<td><a class="filterDiv card kepler23 animated"></a></td>
+					<td><a class="filterDiv card kepler24 animated"></a></td>
+				</tr>
+				<tr>
+					<td><a class="filterDiv card kepler25 animated"></a></td>
+					<td><a class="filterDiv card kepler26 animated"></a></td>
+					<td><a class="filterDiv card kepler27 animated"></a></td>
+					<td><a class="filterDiv card kepler28 animated"></a></td>
+				</tr>
+				<tr>
+					<td><a class="filterDiv card kepler29 animated"></a></td>
+					<td><a class="filterDiv card kepler30 animated"></a></td>
+					<td><a class="filterDiv card kepler31 animated"></a></td>
+					<td><a class="filterDiv card kepler32 animated"></a></td>
+				</tr>
+				<tr>
+					<td><a class="filterDiv card kepler33 animated"></a></td>
+					<td><a class="filterDiv card kepler34 animated"></a></td>
+					<td><a class="filterDiv card kepler35 animated"></a></td>
+					<td><a class="filterDiv card kepler36 animated"></a></td>
+				</tr>
+				<tr>
+					<td><a class="filterDiv card kepler37 animated"></a></td>
+					<td><a class="filterDiv card kepler38 animated"></a></td>
+					<td><a class="filterDiv card kepler39 animated"></a></td>
+					<td><a class="filterDiv card kepler40 animated"></a></td>
+				</tr>
+				<tr>
+					<td><a class="filterDiv card kepler41 animated"></a></td>
+					<td><a class="filterDiv card kepler42 animated"></a></td>
+					<td><a class="filterDiv card kepler43 animated"></a></td>
+					<td><a class="filterDiv card kepler44 animated"></a></td>
+				</tr>
+				<tr>
+					<td><a class="filterDiv card kepler45 animated"></a></td>
+					<td><a class="filterDiv card kepler46 animated"></a></td>
+					<td><a class="filterDiv card kepler47 animated"></a></td>
+					<td><a class="filterDiv card kepler48 animated"></a></td>
+				</tr>
+				<tr>
+					<td><a class="filterDiv card kepler49 animated"></a></td>
+					<td><a class="filterDiv card kepler50 animated"></a></td>
+					<td><a class="filterDiv card kepler51 animated"></a></td>
+					<td><a class="filterDiv card kepler52 animated"></a></td>
+				</tr>
+
+
+			</tbody>
+		</table>
+
+		<!-- <a class="filterDiv card kepler1 animated"></a>
+				href="https://www.randgallery.com/algo-collection/?address=306183859" target="_blank"> </a>
 				<a class="filterDiv card kepler2 animated"></a>
 				<a class="filterDiv card kepler3 animated"></a>
 				<a class="filterDiv card kepler4 animated"></a>
@@ -106,35 +204,34 @@
 				<a class="filterDiv card kepler49 animated"></a>
 				<a class="filterDiv card kepler50 animated"></a>
 				<a class="filterDiv card kepler51 animated"></a>
-				<a class="filterDiv card kepler52 animated"></a>
-
-				<br><br><br><br>
-
+				<a class="filterDiv card kepler52 animated"></a> -->
 		</main>
 
 		<style class="hover"></style>
-	</div>
+</div>
 </div>
 
 <a id="scroller"></a>
 
 <footer class="footer">
-	</div>
-	<nav>
-		<ul>
-			<!-- <p class="footertext">
+	<!-- <p class="footertext">
 				NXQIU4EHBA4XY2B5D23TVQA7WV2MOODRHPMQR2EX3GNEWFW5C5UKMUQPBE -->
-			</p>
-			<!-- <a href="https://kepleremon.net/index.html"><img class="footerimage" src="kepleremon_logo.png"></a> -->
-		</ul>
-	</nav>
+	<h2 style="display: block; margin-left: auto; margin-right: auto; text-align: center; text-transform: uppercase; font-size:xx-large;">
+		KEPLERS</h2>
+	<!-- <a href="https://kepleremon.net/index.html"><img class="footerimage" src="kepleremon_logo.png"></a> -->
 </footer>
-
 
 <script src="effect.js"></script>
 <script src="filtering.js"></script>
 <script src="footeranimation.js"></script>
 <script src="glitch.js"></script>
 <script src="scrolltotop.js"></script>
+<script src="https://cdn.datatables.net/1.11.4/js/dataTables.bootstrap5.min.js"></script>
+<script src="https://cdn.datatables.net/1.11.4/js/dataTables.bootstrap.min.js"></script>
+<script src="https://cdn.datatables.net/fixedheader/3.2.1/js/dataTables.fixedHeader.min.js"></script>
+<script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.2.9/js/dataTables.responsive.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.2.9/js/responsive.bootstrap.min.js"></script>
+<script src="table.js"></script>
 
 </html>
